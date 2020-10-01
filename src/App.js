@@ -6,7 +6,7 @@ import ActionPokemon from './components/ActionPokemon';
 import CantPokemon from './components/CantPokemon';
 import ResultPokemon from './components/searchBar/ResultPokemon';
 import SearchBarPokemon from './components/searchBar/SearchBarPokemon';
-import store from './redux'
+import store from './redux/store';
 
 
 function App() {
