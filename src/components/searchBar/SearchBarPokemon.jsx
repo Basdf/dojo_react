@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { fetchPokemonAction } from '../../redux';
+import { fetchPokemonAction } from '../../redux/actions';
+
 
 
 export default function SearchBarPokemon() {

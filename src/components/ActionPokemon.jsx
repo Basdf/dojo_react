@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { BuyPokemonActions, ReturnPokemonActions } from '../redux';
+import { BuyPokemonActions, ReturnPokemonActions } from '../redux/actions';
 
 export default function ActionPokemon() {
     const dispatch = useDispatch()
