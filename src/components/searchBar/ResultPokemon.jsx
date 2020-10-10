@@ -11,8 +11,7 @@ export default function ResultPokemon() {
             {seeker.pokemon.length >= 1 && <div className="text-success">
                 <img src={seeker.pokemon[0].sprites.other["official-artwork"].front_default} alt={seeker.pokemon[0].name} />
             </div>}
-    {seeker.error!==''&&<span className="text-danger">{seeker.error}</span>}
-
+            {seeker.error !== '' && <span className="text-danger">{seeker.error}</span>}
         </div>
     )
 }
